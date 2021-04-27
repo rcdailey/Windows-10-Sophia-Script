@@ -212,11 +212,11 @@ WindowsWelcomeExperience -Hide
 
 # Get tip, trick, and suggestions as you use Windows (default value)
 # Получать советы, подсказки и рекомендации при использованию Windows (значение по умолчанию)
-WindowsTips -Enable
+# WindowsTips -Enable
 
 # Do not get tip, trick, and suggestions as you use Windows
 # Не получать советы, подсказки и рекомендации при использованию Windows
-# WindowsTips -Disable
+WindowsTips -Disable
 
 # Hide the suggested content in the Settings app
 # Скрывать рекомендуемое содержимое в приложении "Параметры"
@@ -366,19 +366,19 @@ FileTransferDialog -Detailed
 
 # Expand the File Explorer ribbon
 # Развернуть ленту проводника
-FileExplorerRibbon -Expanded
+# FileExplorerRibbon -Expanded
 
 # Minimize the File Explorer ribbon (default value)
 # Свернуть ленту проводника (значение по умолчанию)
-# FileExplorerRibbon -Minimized
+FileExplorerRibbon -Minimized
 
 # Display the recycle bin files delete confirmation dialog
 # Запрашивать подтверждение на удаление файлов в корзину
-RecycleBinDeleteConfirmation -Enable
+# RecycleBinDeleteConfirmation -Enable
 
 # Do not display the recycle bin files delete confirmation dialog (default value)
 # Не запрашивать подтверждение на удаление файлов в корзину (значение по умолчанию)
-# RecycleBinDeleteConfirmation -Disable
+RecycleBinDeleteConfirmation -Disable
 
 # Hide the "3D Objects" folder in "This PC" and Quick access
 # Скрыть папку "Объемные объекты" в "Этот компьютер" и панели быстрого доступа
@@ -526,11 +526,11 @@ PrtScnSnippingTool -Enable
 
 # Do not use the PrtScn button to open screen snipping (default value)
 # Не использовать кнопку PRINT SCREEN, чтобы запустить функцию создания фрагмента экрана (значение по умолчанию)
-# PrtScnSnippingTool -Disable
+PrtScnSnippingTool -Disable
 
 # Let me use a different input method for each app window
 # Позволить выбирать метод ввода для каждого окна
-AppsLanguageSwitch -Enable
+# AppsLanguageSwitch -Enable
 
 # Do not let use a different input method for each app window (default value)
 # Не позволять выбирать метод ввода для каждого окна (значение по умолчанию)
@@ -839,11 +839,11 @@ ThumbnailCacheRemoval -Disable
 
 # Enable automatically saving my restartable apps when signing out and restart them after signing in
 # Включить автоматическое сохранение моих перезапускаемых приложений при выходе из системы и перезапускать их после выхода
-SaveRestartableApps -Enable
+# SaveRestartableApps -Enable
 
 # Disable automatically saving my restartable apps when signing out and restart them after signing in (default value)
 # Выключить автоматическое сохранение моих перезапускаемых приложений при выходе из системы и перезапускать их после выхода (значение по умолчанию)
-# SaveRestartableApps -Disable
+SaveRestartableApps -Disable
 
 # Enable "Network Discovery" and "File and Printers Sharing" for workgroup networks
 # Включить сетевое обнаружение и общий доступ к файлам и принтерам для рабочих групп
@@ -863,11 +863,11 @@ SmartActiveHours -Enable
 
 # Restart this device as soon as possible when a restart is required to install an update
 # Перезапускать это устройство как можно быстрее, если для установки обновления требуется перезагрузка
-DeviceRestartAfterUpdate -Enable
+# DeviceRestartAfterUpdate -Enable
 
 # Do not restart this device as soon as possible when a restart is required to install an update (default value)
 # Не перезапускать это устройство как можно быстрее, если для установки обновления требуется перезагрузка (значение по умолчанию)
-# DeviceRestartAfterUpdate -Disable
+DeviceRestartAfterUpdate -Disable
 
 <#
 	Register app, calculate hash, and set as default for specific extension without the "How do you want to open this?" pop-up
